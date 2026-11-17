@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" width="1600" height="560" role="img" aria-label="Foto dummy banner halaman">
+<defs>
+<radialGradient id="v" cx="50%" cy="50%" r="75%"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".38"/></radialGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#18271F"/><stop offset="1" stop-color="#0F1A14"/></linearGradient>
+</defs>
+<rect width="1600" height="560" fill="url(#g)"/>
+<g transform="rotate(-3 800.0 280.0)">
+<rect x="418.1" y="106.4" width="763.8" height="347.2" fill="#244235"/>
+<rect x="678.5" y="106.4" width="243.0" height="347.2" fill="#1B3329"/>
+<g fill="none" stroke="#fff" stroke-width="4.2" stroke-linecap="square">
+<rect x="418.1" y="106.4" width="763.8" height="347.2"/>
+<path d="M678.5 106.4V453.6M921.5 106.4V453.6M418.1 280.0H678.5M921.5 280.0H1181.9"/>
+</g>
+<path d="M800.0 75.2V484.8" stroke="#fff" stroke-opacity=".9" stroke-width="5.8" stroke-dasharray="5.0 7.5"/>
+</g>
+<rect width="1600" height="560" fill="url(#v)"/>
+<rect x="17" y="509" width="319" height="34" rx="17" fill="rgba(0,0,0,.42)"/><text x="31" y="531" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#fff" letter-spacing="1">FOTO DUMMY  banner halaman</text>
+</svg>

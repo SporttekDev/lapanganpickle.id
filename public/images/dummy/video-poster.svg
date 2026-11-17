@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Foto dummy poster video">
+<defs>
+<radialGradient id="v" cx="50%" cy="50%" r="75%"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".38"/></radialGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#18271F"/><stop offset="1" stop-color="#0F1A14"/></linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#g)"/>
+<g transform="rotate(-5 800.0 450.0)">
+<rect x="80.0" y="122.7" width="1440.0" height="654.5" fill="#244235"/>
+<rect x="570.9" y="122.7" width="458.2" height="654.5" fill="#1B3329"/>
+<g fill="none" stroke="#fff" stroke-width="7.9" stroke-linecap="square">
+<rect x="80.0" y="122.7" width="1440.0" height="654.5"/>
+<path d="M570.9 122.7V777.3M1029.1 122.7V777.3M80.0 450.0H570.9M1029.1 450.0H1520.0"/>
+</g>
+<path d="M800.0 63.8V836.2" stroke="#fff" stroke-opacity=".9" stroke-width="11.0" stroke-dasharray="9.4 14.1"/>
+</g>
+<rect width="1600" height="900" fill="url(#v)"/>
+<rect x="27" y="819" width="471" height="54" rx="27" fill="rgba(0,0,0,.42)"/><text x="49" y="855" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#fff" letter-spacing="1">FOTO DUMMY  poster video</text>
+</svg>

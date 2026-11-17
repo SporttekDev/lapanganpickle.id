@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Foto dummy laykold">
+<defs>
+<radialGradient id="v" cx="50%" cy="50%" r="75%"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".38"/></radialGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E56A8"/><stop offset="1" stop-color="#12345F"/></linearGradient>
+</defs>
+<rect width="1200" height="900" fill="url(#g)"/>
+<g transform="rotate(-5 600.0 450.0)">
+<rect x="120.0" y="231.8" width="960.0" height="436.4" fill="#2F4560"/>
+<rect x="447.3" y="231.8" width="305.5" height="436.4" fill="#27394F"/>
+<g fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="square">
+<rect x="120.0" y="231.8" width="960.0" height="436.4"/>
+<path d="M447.3 231.8V668.2M752.7 231.8V668.2M120.0 450.0H447.3M752.7 450.0H1080.0"/>
+</g>
+<path d="M600.0 192.5V707.5" stroke="#fff" stroke-opacity=".9" stroke-width="7.3" stroke-dasharray="6.3 9.4"/>
+</g>
+<rect width="1200" height="900" fill="url(#v)"/>
+<rect x="27" y="819" width="382" height="54" rx="27" fill="rgba(0,0,0,.42)"/><text x="49" y="855" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#fff" letter-spacing="1">FOTO DUMMY  laykold</text>
+</svg>

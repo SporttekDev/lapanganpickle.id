@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/*
+  Warna brand diambil dari logo lapanganpickle.id:
+  hijau tua #234135, hijau cerah #009A44, kuning bola #FFBE32.
+  Ubah di sini, seluruh situs ikut berubah.
+*/
+@theme inline {
+  --font-sans: var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-barlow-condensed), "Arial Narrow", ui-sans-serif, sans-serif;
+
+  --color-court: #234135;
+  --color-court-deep: #16291f;
+  --color-line: #009a44;
+  --color-ball: #ffbe32;
+  --color-chalk: #f2f6f3;
+  --color-rule: #d6dfd9;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background: #fff;
+    color: var(--color-court);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+
+  /* Judul bergaya papan skor: condensed, tebal, huruf besar */
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-line);
+    outline-offset: 3px;
+  }
+
+  [data-surface="dark"] :focus-visible,
+  [data-surface="dark"]:focus-visible {
+    outline-color: var(--color-ball);
+  }
+}
+
+/* Garis lapangan yang "digambar" saat halaman dibuka (satu kali, di hero) */
+@keyframes court-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.court-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: court-draw 1.7s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+@keyframes court-fade {
+  to {
+    opacity: 1;
+  }
+}
+
+.court-fade {
+  opacity: 0;
+  animation: court-fade 0.6s ease-out forwards;
+}
+
+/* Daftar klien berjalan pelan */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 50s linear infinite;
+}
+
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .court-draw {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+
+  .court-fade {
+    animation: none;
+    opacity: 1;
+  }
+
+  .marquee-track {
+    animation: none;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .marquee-dup {
+    display: none;
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img" aria-label="Foto dummy tim 1">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E56A8"/><stop offset="1" stop-color="#12345F"/></linearGradient></defs>
+<rect width="900" height="1200" fill="url(#g)"/>
+<circle cx="450.0" cy="456" r="135" fill="#fff" fill-opacity=".22"/>
+<path d="M126 1032C126 744 270 672 450 672S774 744 774 1032Z" fill="#fff" fill-opacity=".22"/>
+<rect x="27" y="1119" width="346" height="54" rx="27" fill="rgba(0,0,0,.42)"/><text x="49" y="1155" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#fff" letter-spacing="1">FOTO DUMMY  tim 1</text>
+</svg>
