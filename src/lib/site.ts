@@ -39,7 +39,7 @@ export const site: SiteConfig = {
   // lalu isi src dengan "/videos/popup-event.mp4". Selama kosong, yang tampil gambar poster.
   video: {
     src: "/videos/isfex.mp4",
-    poster: "/images/dummy/video-poster.svg",
+    poster: "/videos/thumbnail.png",
   },
 };
 
