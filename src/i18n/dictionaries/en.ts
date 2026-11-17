@@ -97,8 +97,8 @@ export const en: Dictionary = {
       },
     ],
     stats: [
-      { value: "50+", label: "Pickleball courts built" },
-      { value: "6+", label: "Academies, clubs, and arenas among our clients" },
+      { value: "30+", label: "Pickleball courts built" },
+      { value: "7+", label: "Academies, clubs, and arenas among our clients" },
       { value: "IPF", label: "Our court construction standard" },
       { value: "Laykold", label: "Official brand partner in Indonesia" },
     ],

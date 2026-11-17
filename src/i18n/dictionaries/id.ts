@@ -96,8 +96,8 @@ export const id = {
       },
     ],
     stats: [
-      { value: "50+", label: "Lapangan pickleball telah dibangun" },
-      { value: "6+", label: "Akademi, klub, dan arena yang menjadi klien kami" },
+      { value: "30+", label: "Lapangan pickleball telah dibangun" },
+      { value: "7+", label: "Akademi, klub, dan arena yang menjadi klien kami" },
       { value: "IPF", label: "Standar pembangunan lapangan kami" },
       { value: "Laykold", label: "Official brand partner di Indonesia" },
     ],
