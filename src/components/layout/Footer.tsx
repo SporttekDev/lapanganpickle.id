@@ -109,8 +109,13 @@ export function Footer({ lang, t }: { lang: Locale; t: Dictionary }) {
       </Container>
 
       <div className="border-t border-white/15">
-        <Container className="py-5 text-sm text-white/60">
-          © {year} {site.name}. {t.footer.rights}
+        <Container className="flex flex-col gap-2 py-5 text-sm text-white/60 sm:flex-row sm:items-center sm:justify-between">
+          <p>
+            © {year} {site.name}. {t.footer.rights}
+          </p>
+          <p>
+            {t.footer.partOf} <span className="font-semibold text-white">Sport Group Indonesia</span>
+          </p>
         </Container>
       </div>
     </footer>

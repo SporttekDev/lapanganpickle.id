@@ -368,5 +368,6 @@ export const en: Dictionary = {
     services: "Services",
     contact: "Contact",
     rights: "All rights reserved.",
+    partOf: "Part of",
   },
 };

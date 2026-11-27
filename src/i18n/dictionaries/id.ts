@@ -367,6 +367,7 @@ export const id = {
     services: "Layanan",
     contact: "Kontak",
     rights: "Hak cipta dilindungi.",
+    partOf: "Bagian dari",
   },
 };
 
